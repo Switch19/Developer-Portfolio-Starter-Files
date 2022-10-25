@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <script src="style.js" defer></script>
     <title>Web Dev Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
             <h3 class="logo">Jonathan Specter</h3>
-            <ul>
+            <ul class="menu toggle">
               <li><a href="">Article</a></li>
               <li><a href="">Chats</a></li>
               <li><a href="">Awards</a></li>
               <li><a href="">About</a></li>
+              <div class="contact contact-desktop"><a href="#">Get in touch</a></div>
             </ul>
-            <div class="contact"><a href="#">Get in touch</a></div>
+            <div class="contact contact-mobile"><a href="#">Get in touch</a></div>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="head">
             <h1>Helping companies build <br> better, scalable software.</h1>
